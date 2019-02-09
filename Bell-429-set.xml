@@ -3,7 +3,7 @@
 <PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
 	<sim>
 		<description>Bell 429 Global Ranger</description>
-		<author>Martien van der Plas</author>
+		<author>Martien van der Plas, Stuart Cassie</author>
 		<status>0.2</status>
 		<license>GPL v2</license>
 
