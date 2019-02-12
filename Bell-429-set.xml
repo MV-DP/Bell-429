@@ -10,10 +10,23 @@
 		<flight-model>yasim</flight-model>
 		<aero>Bell-429</aero>
 		<fuel-fraction>1.0</fuel-fraction>
+		
+		<tags>
+                 <tag>helicopter</tag>
+		 <tag>twin-engine</tag>
+                </tags>
 
 		<startup>
 			<splash-texture>Aircraft/Bell-429/splash.jpg</splash-texture>
 		</startup>
+		
+		<previews>
+		 <preview>
+                  <type>exterior</type>
+                  <splash type="bool">true</splash>
+                  <path>Splash/exterior1.png</path>
+                 </preview>
+                </previews>
 
 		<gui>
 			<style>
