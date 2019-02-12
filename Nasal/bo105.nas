@@ -640,7 +640,7 @@ var vibration = { # and noise ...
 	},
 	update: func(dt) {
 		var airspeed = me.airspeedN.getValue();
-		if (airspeed > 120) { # overspeed vibration
+		if (airspeed > 160) { # overspeed vibration
 			var frequency = 2000 + 500 * rand();
 			var v = 0.49 + 0.5 * normatan(airspeed - 160, 10);
 			var intensity = v;
